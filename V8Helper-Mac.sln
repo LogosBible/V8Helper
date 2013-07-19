@@ -5,24 +5,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "V8Helper.NET", "V8Helper.NE
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "V8HelperApp", "V8HelperApp\V8HelperApp.csproj", "{07B5D6F6-6C6C-46F2-AC39-86D4C15715EF}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "V8Helper", "V8Helper.Native\V8Helper.vcxproj", "{3010719F-A90C-4ACF-B1D9-C620F69504FF}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|MacOSX = Debug|MacOSX
 		Debug|Win32 = Debug|Win32
-		Release|MacOSX = Release|MacOSX
 		Release|Win32 = Release|Win32
+		Debug|MacOSX = Debug|MacOSX
+		Release|MacOSX = Release|MacOSX
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{90FAA57B-9E2A-4C99-805B-2CFBA28A4E0B}.Debug|MacOSX.ActiveCfg = Debug|MacOSX
-		{90FAA57B-9E2A-4C99-805B-2CFBA28A4E0B}.Debug|MacOSX.Build.0 = Debug|MacOSX
-		{90FAA57B-9E2A-4C99-805B-2CFBA28A4E0B}.Debug|Win32.ActiveCfg = Debug|Win32
-		{90FAA57B-9E2A-4C99-805B-2CFBA28A4E0B}.Debug|Win32.Build.0 = Debug|Win32
-		{90FAA57B-9E2A-4C99-805B-2CFBA28A4E0B}.Release|MacOSX.ActiveCfg = Release|MacOSX
-		{90FAA57B-9E2A-4C99-805B-2CFBA28A4E0B}.Release|MacOSX.Build.0 = Release|MacOSX
-		{90FAA57B-9E2A-4C99-805B-2CFBA28A4E0B}.Release|Win32.ActiveCfg = Release|Win32
-		{90FAA57B-9E2A-4C99-805B-2CFBA28A4E0B}.Release|Win32.Build.0 = Release|Win32
 		{07B5D6F6-6C6C-46F2-AC39-86D4C15715EF}.Debug|MacOSX.ActiveCfg = Debug|MacOSX
 		{07B5D6F6-6C6C-46F2-AC39-86D4C15715EF}.Debug|MacOSX.Build.0 = Debug|MacOSX
 		{07B5D6F6-6C6C-46F2-AC39-86D4C15715EF}.Debug|Win32.ActiveCfg = Debug|Win32
@@ -31,17 +21,29 @@ Global
 		{07B5D6F6-6C6C-46F2-AC39-86D4C15715EF}.Release|MacOSX.Build.0 = Release|MacOSX
 		{07B5D6F6-6C6C-46F2-AC39-86D4C15715EF}.Release|Win32.ActiveCfg = Release|Win32
 		{07B5D6F6-6C6C-46F2-AC39-86D4C15715EF}.Release|Win32.Build.0 = Release|Win32
-		{3010719F-A90C-4ACF-B1D9-C620F69504FF}.Debug|MacOSX.ActiveCfg = Debug|Win32
+		{90FAA57B-9E2A-4C99-805B-2CFBA28A4E0B}.Debug|MacOSX.ActiveCfg = Debug|MacOSX
+		{90FAA57B-9E2A-4C99-805B-2CFBA28A4E0B}.Debug|MacOSX.Build.0 = Debug|MacOSX
+		{90FAA57B-9E2A-4C99-805B-2CFBA28A4E0B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{90FAA57B-9E2A-4C99-805B-2CFBA28A4E0B}.Debug|Win32.Build.0 = Debug|Win32
+		{90FAA57B-9E2A-4C99-805B-2CFBA28A4E0B}.Release|MacOSX.ActiveCfg = Release|MacOSX
+		{90FAA57B-9E2A-4C99-805B-2CFBA28A4E0B}.Release|MacOSX.Build.0 = Release|MacOSX
+		{90FAA57B-9E2A-4C99-805B-2CFBA28A4E0B}.Release|Win32.ActiveCfg = Release|Win32
+		{90FAA57B-9E2A-4C99-805B-2CFBA28A4E0B}.Release|Win32.Build.0 = Release|Win32
+		{3010719F-A90C-4ACF-B1D9-C620F69504FF}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{3010719F-A90C-4ACF-B1D9-C620F69504FF}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{3010719F-A90C-4ACF-B1D9-C620F69504FF}.Debug|Mixed Platforms.Build.0 = Debug|Win32
 		{3010719F-A90C-4ACF-B1D9-C620F69504FF}.Debug|Win32.ActiveCfg = Debug|Win32
 		{3010719F-A90C-4ACF-B1D9-C620F69504FF}.Debug|Win32.Build.0 = Debug|Win32
-		{3010719F-A90C-4ACF-B1D9-C620F69504FF}.Release|MacOSX.ActiveCfg = Release|Win32
+		{3010719F-A90C-4ACF-B1D9-C620F69504FF}.Release|Any CPU.ActiveCfg = Release|Win32
+		{3010719F-A90C-4ACF-B1D9-C620F69504FF}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{3010719F-A90C-4ACF-B1D9-C620F69504FF}.Release|Mixed Platforms.Build.0 = Release|Win32
 		{3010719F-A90C-4ACF-B1D9-C620F69504FF}.Release|Win32.ActiveCfg = Release|Win32
 		{3010719F-A90C-4ACF-B1D9-C620F69504FF}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = V8HelperApp\V8HelperApp.csproj
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal
