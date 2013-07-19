@@ -25,11 +25,11 @@ Mac
 
 Future Plans
 ============
-NuGet package
-64-bit support
-Build v8 as a shared library from a git submodule
+- NuGet package
+- 64-bit support
+- Build v8 as a shared library from a git submodule
 
 Prerequistes
 ============
-Windows: Visual Studio 2012
-Mac: MonoDevelop, Xcode, Xcode Command Line Tools
+- Windows: Visual Studio 2012
+- Mac: MonoDevelop, Xcode, Xcode Command Line Tools
