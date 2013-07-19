@@ -1,7 +1,0 @@
-//
-// Prefix header for all source files of the 'V8Helper' target in the 'V8Helper' project
-//
-
-#include "v8.h"
-#include <iostream>
-
