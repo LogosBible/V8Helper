@@ -2,6 +2,9 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "V8Helper.NET", "V8Helper.NET\V8Helper.NET.csproj", "{90FAA57B-9E2A-4C99-805B-2CFBA28A4E0B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3010719F-A90C-4ACF-B1D9-C620F69504FF} = {3010719F-A90C-4ACF-B1D9-C620F69504FF}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "V8HelperApp", "V8HelperApp\V8HelperApp.csproj", "{07B5D6F6-6C6C-46F2-AC39-86D4C15715EF}"
 EndProject
