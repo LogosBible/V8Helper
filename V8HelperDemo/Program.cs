@@ -1,7 +1,7 @@
 ﻿using System;
 using V8Helper.NET;
 
-namespace V8HelperApp
+namespace V8HelperDemo
 {
 	class Program
 	{

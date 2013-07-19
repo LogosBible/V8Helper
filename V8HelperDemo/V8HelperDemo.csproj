@@ -7,8 +7,8 @@
     <ProjectGuid>{07B5D6F6-6C6C-46F2-AC39-86D4C15715EF}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>V8HelperApp</RootNamespace>
-    <AssemblyName>V8HelperApp</AssemblyName>
+    <RootNamespace>V8HelperDemo</RootNamespace>
+    <AssemblyName>V8HelperDemo</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <ProductVersion>12.0.0</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
