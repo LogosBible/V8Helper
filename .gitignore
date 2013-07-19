@@ -1,0 +1,9 @@
+*.suo
+*.aps
+*.opensdf
+*.sdf
+*.user
+V8Helper/
+bin/
+obj/
+ipch/

@@ -1,0 +1,10 @@
+#pragma once
+
+#define ASSEMBLY_VERSION_MAJOR 1
+#define ASSEMBLY_VERSION_MINOR 0
+#define ASSEMBLY_VERSION_BUILD 0
+#define ASSEMBLY_VERSION_REVISION 0
+#define ASSEMBLY_VERSION_STRING "1.0.0.0"
+
+#define ASSEMBLY_COMPANY "Logos Bible Software"
+#define ASSEMBLY_COPYRIGHT "Copyright 2012-13 Logos Bible Software"
