@@ -2,7 +2,7 @@
 #include "JavaScriptContext.h"
 
 #if MACINTOSH
-#include <MacUtil/MacUtil.h>
+#include "MacUtil.h"
 #endif
 
 #if DEBUG

@@ -41,13 +41,13 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <OutDir>..\V8Helper\bin\$(Configuration)\</OutDir>
-    <IntDir>..\V8Helper\obj\$(Configuration)\</IntDir>
+    <OutDir>..\V8Helper\bin\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>..\V8Helper\obj\$(Platform)\$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
-    <OutDir>bin\$(Configuration)\</OutDir>
-    <IntDir>obj\$(Configuration)\</IntDir>
+    <OutDir>..\V8Helper\bin\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>..\V8Helper\obj\$(Platform)\$(Configuration)\</IntDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>

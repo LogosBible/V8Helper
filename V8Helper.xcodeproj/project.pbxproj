@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B9C013D168CE5C600E17BA2 /* ExportedMethods.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B9C012D168CE5C600E17BA2 /* ExportedMethods.cpp */; };
+		4B9C013E168CE5C600E17BA2 /* JavascriptContext.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B9C012F168CE5C600E17BA2 /* JavascriptContext.cpp */; };
+		4B9C0148168CEBAC00E17BA2 /* libv8.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B9C0147168CEBAC00E17BA2 /* libv8.dylib */; };
+		4BC053501797B33000156E4F /* MacUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4BC0534F1797B33000156E4F /* MacUtil.cpp */; };
+		4BC053531798663700156E4F /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BC053521798663700156E4F /* CoreFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4B9C00C2168CDBF100E17BA2 /* libV8Helper.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libV8Helper.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B9C012D168CE5C600E17BA2 /* ExportedMethods.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ExportedMethods.cpp; sourceTree = "<group>"; };
+		4B9C012E168CE5C600E17BA2 /* ExportedMethods.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = ExportedMethods.inl; sourceTree = "<group>"; };
+		4B9C012F168CE5C600E17BA2 /* JavascriptContext.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JavascriptContext.cpp; sourceTree = "<group>"; };
+		4B9C0130168CE5C600E17BA2 /* JavascriptContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JavascriptContext.h; sourceTree = "<group>"; };
+		4B9C0136168CE5C600E17BA2 /* v8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = v8.h; sourceTree = "<group>"; };
+		4B9C0139168CE5C600E17BA2 /* v8stdint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = v8stdint.h; sourceTree = "<group>"; };
+		4B9C0147168CEBAC00E17BA2 /* libv8.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libv8.dylib; path = lib/mac/libv8.dylib; sourceTree = "<group>"; };
+		4BC0534F1797B33000156E4F /* MacUtil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MacUtil.cpp; sourceTree = "<group>"; };
+		4BC053511797B42E00156E4F /* stdafx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stdafx.h; sourceTree = "<group>"; };
+		4BC053521798663700156E4F /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		4BDC2E011797AF02003FDEC4 /* MacUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacUtil.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B9C00BF168CDBF100E17BA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BC053531798663700156E4F /* CoreFoundation.framework in Frameworks */,
+				4B9C0148168CEBAC00E17BA2 /* libv8.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B9C00B7168CDBF000E17BA2 = {
+			isa = PBXGroup;
+			children = (
+				4BC053521798663700156E4F /* CoreFoundation.framework */,
+				4B9C0147168CEBAC00E17BA2 /* libv8.dylib */,
+				4B9C0129168CE59F00E17BA2 /* V8Helper */,
+				4B9C00C3168CDBF100E17BA2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B9C00C3168CDBF100E17BA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B9C00C2168CDBF100E17BA2 /* libV8Helper.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B9C0129168CE59F00E17BA2 /* V8Helper */ = {
+			isa = PBXGroup;
+			children = (
+				4BC053511797B42E00156E4F /* stdafx.h */,
+				4B9C012D168CE5C600E17BA2 /* ExportedMethods.cpp */,
+				4B9C012E168CE5C600E17BA2 /* ExportedMethods.inl */,
+				4B9C012F168CE5C600E17BA2 /* JavascriptContext.cpp */,
+				4B9C0130168CE5C600E17BA2 /* JavascriptContext.h */,
+				4B9C0136168CE5C600E17BA2 /* v8.h */,
+				4B9C0139168CE5C600E17BA2 /* v8stdint.h */,
+				4BDC2E011797AF02003FDEC4 /* MacUtil.h */,
+				4BC0534F1797B33000156E4F /* MacUtil.cpp */,
+			);
+			name = V8Helper;
+			path = V8Helper.Native;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B9C00C1168CDBF100E17BA2 /* V8Helper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B9C00CF168CDBF100E17BA2 /* Build configuration list for PBXNativeTarget "V8Helper" */;
+			buildPhases = (
+				4B9C00BE168CDBF100E17BA2 /* Sources */,
+				4B9C00BF168CDBF100E17BA2 /* Frameworks */,
+				4BC05371179995BD00156E4F /* Copy Dylib */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = V8Helper;
+			productName = V8Helper;
+			productReference = 4B9C00C2168CDBF100E17BA2 /* libV8Helper.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B9C00B9168CDBF000E17BA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Logos Bible Software";
+			};
+			buildConfigurationList = 4B9C00BC168CDBF000E17BA2 /* Build configuration list for PBXProject "V8Helper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4B9C00B7168CDBF000E17BA2;
+			productRefGroup = 4B9C00C3168CDBF100E17BA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B9C00C1168CDBF100E17BA2 /* V8Helper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4BC05371179995BD00156E4F /* Copy Dylib */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Dylib";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "mkdir -p \"$SRCROOT/V8Helper/bin/MacOSX/$CONFIGURATION\"\ncp \"$TARGET_BUILD_DIR/libV8Helper.dylib\" \"$SRCROOT/V8Helper/bin/MacOSX/$CONFIGURATION\"";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B9C00BE168CDBF100E17BA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B9C013D168CE5C600E17BA2 /* ExportedMethods.cpp in Sources */,
+				4B9C013E168CE5C600E17BA2 /* JavascriptContext.cpp in Sources */,
+				4BC053501797B33000156E4F /* MacUtil.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4B9C00CD168CDBF100E17BA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		4B9C00CE168CDBF100E17BA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		4B9C00D0168CDBF100E17BA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DYLIB_CURRENT_VERSION = 1.1;
+				HEADER_SEARCH_PATHS = (
+					/usr/include/malloc,
+					"$(SRCROOT)/../../../../Sinai/src",
+					"$(SRCROOT)/../../../../Sinai/ext/libxml2/include",
+				);
+				INSTALL_PATH = "";
+				LD_DYLIB_INSTALL_NAME = "$(DYLIB_INSTALL_NAME_BASE:standardizepath)$(EXECUTABLE_PATH)";
+				LD_RUNPATH_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/lib/mac\"",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-DMACINTOSH",
+					"-DOSX",
+					"-DNO_ASSERT_MAC",
+				);
+				OTHER_LDFLAGS = "-headerpad_max_install_names";
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SYMROOT = V8Helper/bin;
+				VALID_ARCHS = i386;
+			};
+			name = Debug;
+		};
+		4B9C00D1168CDBF100E17BA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DYLIB_CURRENT_VERSION = 1.1;
+				HEADER_SEARCH_PATHS = (
+					/usr/include/malloc,
+					"$(SRCROOT)/../../../../Sinai/src",
+					"$(SRCROOT)/../../../../Sinai/ext/libxml2/include",
+				);
+				INSTALL_PATH = "";
+				LD_DYLIB_INSTALL_NAME = "$(DYLIB_INSTALL_NAME_BASE:standardizepath)$(EXECUTABLE_PATH)";
+				LD_RUNPATH_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/lib/mac\"",
+				);
+				OTHER_CFLAGS = (
+					"-DMACINTOSH",
+					"-DOSX",
+					"-DNO_ASSERT_MAC",
+				);
+				OTHER_LDFLAGS = "-headerpad_max_install_names";
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SYMROOT = V8Helper/bin;
+				VALID_ARCHS = i386;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B9C00BC168CDBF000E17BA2 /* Build configuration list for PBXProject "V8Helper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B9C00CD168CDBF100E17BA2 /* Debug */,
+				4B9C00CE168CDBF100E17BA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B9C00CF168CDBF100E17BA2 /* Build configuration list for PBXNativeTarget "V8Helper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B9C00D0168CDBF100E17BA2 /* Debug */,
+				4B9C00D1168CDBF100E17BA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B9C00B9168CDBF000E17BA2 /* Project object */;
+}
