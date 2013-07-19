@@ -14,13 +14,13 @@ Windows
 --------
 1. Open V8Helper.sln in Visual Studio 2012
 2. Build.
-3. Run V8HelperApp.exe from the build products directory
+3. Run V8HelperDemo.exe from the build products directory
 
 Mac
 ---
 1. Open V8Helper-Mac.sln in MonoDevelop.
 2. Build.
-3. Run "mono V8HelperApp.exe" from the build products directory
+3. Run "mono V8HelperDemo.exe" from the build products directory
 
 
 Future Plans
