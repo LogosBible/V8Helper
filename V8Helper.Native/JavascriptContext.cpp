@@ -32,7 +32,7 @@ Handle<Value> Print(const Arguments& args)
 	return Undefined();
 }
 
-JavaScriptContext::JavaScriptContext() : m_disposed(false)
+JavaScriptContext::JavaScriptContext()
 {
 	m_isolate = Isolate::New();
 	Locker v8Locker(m_isolate);

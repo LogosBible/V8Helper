@@ -21,7 +21,6 @@
 class JavaScriptContext
 {
 private:
-	bool m_disposed;
 	v8::Persistent<v8::Context> *m_ctx;
 	v8::Isolate *m_isolate;
 
