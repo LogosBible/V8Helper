@@ -113,9 +113,6 @@
     <ClCompile Include="JavaScriptContext.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="ExportedMethods.inl" />
-  </ItemGroup>
-  <ItemGroup>
     <ResourceCompile Include="V8Helper.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

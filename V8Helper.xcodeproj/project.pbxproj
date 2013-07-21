@@ -17,7 +17,6 @@
 /* Begin PBXFileReference section */
 		4B9C00C2168CDBF100E17BA2 /* libV8Helper.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libV8Helper.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B9C012D168CE5C600E17BA2 /* ExportedMethods.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ExportedMethods.cpp; sourceTree = "<group>"; };
-		4B9C012E168CE5C600E17BA2 /* ExportedMethods.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = ExportedMethods.inl; sourceTree = "<group>"; };
 		4B9C012F168CE5C600E17BA2 /* JavascriptContext.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JavascriptContext.cpp; sourceTree = "<group>"; };
 		4B9C0130168CE5C600E17BA2 /* JavascriptContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JavascriptContext.h; sourceTree = "<group>"; };
 		4B9C0136168CE5C600E17BA2 /* v8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = v8.h; sourceTree = "<group>"; };
@@ -65,7 +64,6 @@
 			children = (
 				4BC053511797B42E00156E4F /* stdafx.h */,
 				4B9C012D168CE5C600E17BA2 /* ExportedMethods.cpp */,
-				4B9C012E168CE5C600E17BA2 /* ExportedMethods.inl */,
 				4B9C012F168CE5C600E17BA2 /* JavascriptContext.cpp */,
 				4B9C0130168CE5C600E17BA2 /* JavascriptContext.h */,
 				4B9C0136168CE5C600E17BA2 /* v8.h */,
